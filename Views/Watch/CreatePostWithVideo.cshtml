@@ -1,0 +1,36 @@
+﻿@model ThirdDelivery.Models.Post
+
+@{
+    ViewData["Title"] = "Add Video Post";
+}
+
+<h2>Create a New Video Post</h2>
+
+<form asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
+
+    <div>
+        <label asp-for="Content"></label>
+        <input asp-for="Content" class="form-control" required />
+        <span asp-validation-for="Content" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="VideoUrl"></label>
+        <input asp-for="VideoUrl" class="form-control" required />
+        <span asp-validation-for="VideoUrl" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div>
+        <button type="submit">Create Post</button>
+    </div>
+</form>
+
+<a asp-controller="Watch" asp-action="Index">Back to Watch</a>
+}

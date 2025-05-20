@@ -1,0 +1,222 @@
+﻿@model IEnumerable<ThirdDelivery.Models.Post>
+@using System.Security.Claims
+@{
+    var profilePic = ViewBag.ProfilePictureUrl as string;
+    var currentUserName = ViewBag.UserName as string;
+}
+@{
+    ViewData["Title"] = "Watch";
+}
+<nav>
+    <div class="left">
+        <div class="logo">
+            <a asp-controller="Home" asp-action="Index">
+                <img src="~/images/Preview.png" alt="Logo" />
+            </a>
+        </div>
+        <div class="search_bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search on Interact" />
+        </div>
+    </div>
+    <div class="center">
+        <a asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house"></i></a>
+        <a asp-controller="Watch" asp-action="Index"><i class="fa-solid fa-tv"></i></a>
+        <a asp-controller="Marketplace" asp-action="Index"><i class="fa-solid fa-store"></i></a>
+        <a asp-controller="Group" asp-action="Index"><i class="fa-solid fa-users"></i></a>
+    </div>
+    <div class="right">
+        <a asp-controller="Profile" asp-action="Index">
+            <div class="img">
+                <img src="@profilePic" alt="Poza utilizator curent" />
+            </div>
+        </a>
+    </div>
+</nav>
+
+<div class="main">
+    <div class="left">
+        <a asp-controller="Profile" asp-action="Index">
+            <div class="img">
+                <img src="@profilePic" alt="Poza utilizator curent" />
+                <p>@ViewBag.UserName</p>
+            </div>
+        </a>
+        <a asp-controller="Friends" asp-action="Index">
+            <div class="img">
+                <img src="~/images/friend.png" />
+                <p>Friends</p>
+            </div>
+        </a>
+        <a asp-controller="Group" asp-action="Index">
+            <div class="img">
+                <img src="~/images/group.png" />
+                <p>Groups</p>
+            </div>
+        </a>
+        <a asp-controller="Marketplace" asp-action="Index">
+            <div class="img">
+                <img src="~/images/marketplace.png" />
+                <p>Marketplace</p>
+            </div>
+        </a>
+        <a asp-controller="Watch" asp-action="Index">
+            <div class="img">
+                <img src="~/images/watch.png" />
+                <p>Watch</p>
+            </div>
+        </a>
+        <hr />
+    </div>
+    <div class="center">
+        <div class="my_post">
+            <div class="post_top">
+                <img src="@(!string.IsNullOrEmpty(profilePic) ? profilePic : "/images/profile.jpg")" alt="Profile Picture" />
+                <form asp-action="CreatePostDirect" asp-controller="Watch" method="post" enctype="multipart/form-data" style="width:100%; margin-left:20px;">
+                    <input type="text" name="content" placeholder="What's the video about?" required style="width:80%; padding: 10px; margin-top: 5px;" />
+                    <label for="videoFile" class="btn btn-secondary">Select video</label>
+                    <input type="file" name="videoFile" id="videoFile" accept="video/*" style="display:none;" />
+                    <button type="submit" class="btn btn-primary" style="margin-top:10px;">Upload Video</button>
+                </form>
+            </div>
+        </div>
+
+        <hr />
+
+        @foreach (var post in Model.Where(p => !string.IsNullOrEmpty(p.VideoUrl)))
+        {
+            <div class="friends_post" id="post-@post.PostId">
+                <div class="friend_post_top">
+                    <div class="img_and_name">
+                        <img src="@(!string.IsNullOrEmpty(post.ApplicationUser?.ProfilePictureUrl) ? post.ApplicationUser.ProfilePictureUrl : "/images/profile.jpg")" />
+                        <div class="friends_name">
+                            <p class="name">@post.ApplicationUser?.UserName</p>
+                            <p class="time">@post.CreatedAt.ToString("g")</p>
+                        </div>
+                    </div>
+                </div>
+
+                <video class="post_video" controls style="width:100%; max-height:400px; object-fit:cover; margin-top:10px;">
+                    <source src="@post.VideoUrl" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+
+                <div class="post_content">
+                    <p>@post.Content</p>
+                </div>
+
+                <div class="info">
+                    <div class="emoji_img">
+                        <img src="~/images/like.png" alt="like" />
+                        <p>@(post.Likes?.Count() ?? 0) Likes</p>
+                    </div>
+                    <div class="comment">
+                        <p>@(post.Comments?.Count() ?? 0) Comments</p>
+                    </div>
+                </div>
+
+                <hr />
+
+                <form asp-action="LikePost" asp-controller="Watch" method="post">
+                    <input type="hidden" name="id" value="@post.PostId" />
+                    <button class="btn btn-light" type="submit">👍 Like</button>
+                </form>
+
+                <div class="comment_warpper">
+                    <img src="@(!string.IsNullOrEmpty(profilePic) ? profilePic : "/images/profile.jpg")" alt="Profile Picture" />
+                    <div class="circle"></div>
+                    <div class="comment_search">
+                        <form asp-action="AddComment" asp-controller="Watch" method="post" style="display:flex; align-items:center;">
+                            <input type="hidden" name="postId" value="@post.PostId" />
+                            <input type="text" name="content" class="comment-input" placeholder="Write a comment..." required />
+                            <button type="submit" class="btn btn-primary comment-button" data-post-id="@post.PostId" style="margin-left:10px;">Comment</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div id="comment-list-@post.PostId" style="margin-top:10px;">
+                    @if (post.Comments != null && post.Comments.Any())
+                    {
+                        foreach (var comment in post.Comments)
+                        {
+                            <div style="background: #f0f0f0; padding: 5px 10px; border-radius: 15px; margin: 5px 0;">
+                                <strong>@(comment.ApplicationUser?.UserName ?? "Unknown"):</strong> @comment.Content
+
+
+                            </div>
+                        }
+                    }
+                </div>
+
+                <hr />
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // LIKE fără refresh
+        document.querySelectorAll('.like-button').forEach(button => {
+            button.addEventListener('click', function () {
+                const postId = this.getAttribute('data-post-id');
+
+                fetch('/Home/LikePost', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    },
+                    body: `id=${postId}`
+                })
+                .then(response => {
+                    if (response.ok) {
+                        location.reload(); // simplu reload ca sa vezi Like-ul
+                    } else {
+                        console.error('Failed to like');
+                    }
+                });
+            });
+        });
+
+        // COMMENT fără refresh
+                        document.querySelectorAll('.comment-button').forEach(button => {
+            button.addEventListener('click', function (e) {
+                e.preventDefault(); // 🔥 OPREȘTE SUBMITUL FORMULARULUI NORMAL
+
+                const postId = this.getAttribute('data-post-id');
+                const input = this.previousElementSibling;
+                const content = input.value;
+
+                if (!content.trim()) {
+                    alert('Comment cannot be empty!');
+                    return;
+                }
+
+                fetch('/Home/AddComment', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    },
+                    body: `postId=${postId}&content=${encodeURIComponent(content)}`
+                })
+                .then(response => {
+                    if (response.ok) {
+                        const commentList = document.getElementById(`comment-list-${postId}`);
+                        const newComment = document.createElement('div');
+                        newComment.style.background = '#f0f0f0';
+                        newComment.style.padding = '5px 10px';
+                        newComment.style.borderRadius = '15px';
+                        newComment.style.margin = '5px 0';
+                        newComment.innerHTML = `<strong>Comment:</strong> ${content}`;
+                        commentList.appendChild(newComment);
+                        input.value = '';
+                        location.reload();
+                    } else {
+                        console.error('Failed to comment');
+                    }
+                });
+            });
+        });
+    </script>
+            }
+

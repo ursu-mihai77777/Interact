@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ThirdDelivery.Models.FriendSuggestion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<<h2>Friend Suggestions</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Add New Suggestion</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Mutual Friends</th>
+            <th>Image URL</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var suggestion in Model)
+        {
+            <tr>
+                <td>@suggestion.Name</td>
+                <td>@suggestion.MutualFriends</td>
+                <td>@suggestion.ImagePath</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@suggestion.Id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@suggestion.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

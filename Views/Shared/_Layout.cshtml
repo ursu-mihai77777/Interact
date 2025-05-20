@@ -1,0 +1,39 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ThirdDelivery.Models
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Interact</title>
+
+    <link rel="stylesheet" href="@Url.Content("~/css/style.css")" />
+    <partial name="_LoginPartial" />
+  
+
+    @RenderSection("Styles", required: false)  <!-- ✅ ADD THIS -->
+   
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <a asp-controller="Account" asp-action="Login">Login</a>
+        <a asp-controller="Account" asp-action="Register">Register</a>
+    }
+    else
+    {
+        <form asp-controller="Account" asp-action="Logout" method="post">
+            <button type="submit">Logout</button>
+        </form>
+    }
+
+
+    @RenderBody()
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

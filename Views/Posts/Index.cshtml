@@ -1,0 +1,37 @@
+﻿@model IEnumerable<ThirdDelivery.Models.Post>
+
+@{
+    ViewData["Title"] = "Posts";
+}
+
+<h1>All Posts</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Post</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Content</th>
+            <th>Created At</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var post in Model)
+        {
+            <tr>
+                <td>@post.Title</td>
+                <td>@post.Content</td>
+                <td>@post.CreatedAt.ToString("g")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@post.PostId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@post.PostId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@post.PostId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

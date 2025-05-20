@@ -1,0 +1,23 @@
+﻿@model ThirdDelivery.Models.Post
+
+@{
+    ViewData["Title"] = "Create Watch Post";
+}
+
+<h2>Create a New Video Post</h2>
+
+<form asp-action="Create" asp-controller="Watch" method="post">
+    <div>
+        <label>Content:</label>
+        <input type="text" name="Content" placeholder="Write something about the video..." required />
+    </div>
+    <div>
+        <label>Video URL:</label>
+        <input type="text" name="VideoUrl" placeholder="/videos/example.mp4" required />
+    </div>
+    <div>
+        <button type="submit">Create Post</button>
+    </div>
+</form>
+
+<a asp-controller="Watch" asp-action="Index">Back to Watch</a>

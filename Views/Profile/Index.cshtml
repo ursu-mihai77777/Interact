@@ -1,0 +1,238 @@
+﻿@model ThirdDelivery.ViewModels.ProfileViewModel
+
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interact-Profile</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav>
+        <div class="left">
+            <div class="logo">
+                <a asp-controller="Home" asp-action="Index">
+                    <img src="~/images/Preview.png" alt="Logo" />
+                </a>
+            </div>
+            <div class="search_bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search on Interact" />
+            </div>
+        </div>
+        <div class="center">
+            <a asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house"></i></a>
+            <a asp-controller="Watch" asp-action="Index"><i class="fa-solid fa-tv"></i></a>
+            <a asp-controller="Marketplace" asp-action="Index"><i class="fa-solid fa-store"></i></a>
+            <a asp-controller="Group" asp-action="Index"><i class="fa-solid fa-users"></i></a>
+        </div>
+        <div class="right">
+            <a asp-controller="Profile" asp-action="Index">
+                <div class="img">
+                    <img src="@Model.CurrentUser.ProfilePictureUrl" class="pd-images" />
+
+                </div>
+            </a>
+        </div>
+    </nav>
+
+
+
+    <!------------main--------------->
+
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="@Model.CurrentUser.ProfilePictureUrl" class="pd-images" />
+
+                    <form asp-action="UploadProfilePicture" asp-controller="Profile" method="post" enctype="multipart/form-data" style="margin-top:10px;">
+            <input type="file" name="profileImage" accept="image/*" required />
+            <button type="submit" class="btn btn-sm btn-primary" style="margin-top:5px;">Upload</button>
+        </form>
+                    <div>
+                        <h3>@Model.CurrentUser.UserName</h3>
+                        <p>590 Friends</p>
+                        <img src="images/member-1.png">
+                        <img src="images/member-2.jpg">
+                        <img src="images/member-3.jpg">
+                        <img src="images/member-4.jpg">
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+       
+               
+             
+                   
+
+            <div class="post-col">
+                <div class="main-p">
+                    <div class="center">
+
+                        <!-- Creare postare -->
+                        <form asp-action="CreatePost" asp-controller="Profile" method="post">
+                            <div class="my_post">
+                                <div class="post_top">
+                                    <img src="@(!string.IsNullOrEmpty(Model.CurrentUser?.ProfilePictureUrl) ? Model.CurrentUser.ProfilePictureUrl : "/images/profile.jpg")"
+                                         class="pd-images" />
+                                    <input type="text" name="Content" placeholder="What's on your mind?" required style="width:80%;" />
+                                </div>
+                                <button type="submit" class="btn btn-primary" style="margin-top:10px;">Post</button>
+                            </div>
+                        </form>
+
+                        <!-- Afișare postări existente -->
+                        <div id="postsContainer">
+                            @foreach (var post in Model.Posts)
+                            {
+                                <div class="friends_post" id="post-@post.PostId">
+                                    <div class="friend_post_top">
+                                        <div class="img_and_name">
+                                            <img src="@(!string.IsNullOrEmpty(post.ApplicationUser?.ProfilePictureUrl) ? post.ApplicationUser.ProfilePictureUrl : "/images/profile.jpg")"
+                                                 class="pd-images" alt="Profile Picture" />
+
+                                            <div class="friends_name">
+                                                <p class="name">@post.UserName</p>
+                                                <p class="time">@post.CreatedAt.ToString("g")</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="post_content">
+                                        @if (!string.IsNullOrEmpty(post.ImageUrl))
+                                        {
+                                            <img src="@post.ImageUrl" alt="Post image" style="width:100%; max-height:400px; object-fit:cover; margin-top:10px;" />
+                                        }
+                                        <p>@post.Content</p>
+                                    </div>
+
+                                    <div class="info">
+                                        <div class="emoji_img">
+                                            <img src="~/images/like.png" alt="like" />
+                                            <p>@(post.Likes?.Count() ?? 0) Likes</p>
+                                        </div>
+                                        <div class="comment">
+                                            <p>@(post.Comments?.Count() ?? 0) Comments</p>
+                                        </div>
+                                    </div>
+
+                                    <hr />
+
+                                    <!-- Like Button -->
+                                    <button class="btn btn-light like-button" data-post-id="@post.PostId">👍 Like</button>
+
+                                    <!-- Comment Form -->
+                                    <div class="comment_warpper">
+                                        <img src="@(!string.IsNullOrEmpty(post.ApplicationUser?.ProfilePictureUrl) ? post.ApplicationUser.ProfilePictureUrl : "/images/profile.jpg")"
+                                             class="pd-images" />
+                                        <div class="circle"></div>
+                                        <div class="comment_search">
+                                            <form asp-action="AddComment" asp-controller="Home" method="post" style="display:flex; align-items:center;">
+                                                <input type="hidden" name="postId" value="@post.PostId" />
+                                                <input type="text" name="content" class="comment-input" placeholder="Write a comment..." required />
+                                                <button type="submit" class="btn btn-primary comment-button" data-post-id="@post.PostId" style="margin-left:10px;">Comment</button>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <!-- Comentarii existente -->
+                                    <div id="comment-list-@post.PostId" style="margin-top:10px;">
+                                        @if (post.Comments != null && post.Comments.Any())
+                                        {
+                                            foreach (var comment in post.Comments)
+                                            {
+                                                <div style="background: #f0f0f0; padding: 5px 10px; border-radius: 15px; margin: 5px 0;">
+                                                    <strong>@(comment.ApplicationUser?.UserName ?? "Anonim"):</strong> @comment.Content
+                                                </div>
+                                            }
+                                        }
+                                    </div>
+
+                                    <hr />
+                                </div>
+                            }
+                        </div>
+                        </div> <!-- end center -->
+                    </div> <!-- end main -->
+                    @section Scripts {
+                        <script>
+                            // LIKE fără refresh
+                            document.querySelectorAll('.like-button').forEach(button => {
+                                button.addEventListener('click', function () {
+                                    const postId = this.getAttribute('data-post-id');
+
+                                    fetch('/Home/LikePost', {
+                                        method: 'POST',
+                                        headers: {
+                                            'Content-Type': 'application/x-www-form-urlencoded'
+                                        },
+                                        body: `id=${postId}`
+                                    })
+                                    .then(response => {
+                                        if (response.ok) {
+                                            location.reload(); // simplu reload ca sa vezi Like-ul
+                                        } else {
+                                            console.error('Failed to like');
+                                        }
+                                    });
+                                });
+                            });
+
+                            // COMMENT fără refresh
+                                            document.querySelectorAll('.comment-button').forEach(button => {
+                                button.addEventListener('click', function (e) {
+                                    e.preventDefault(); // 🔥 OPREȘTE SUBMITUL FORMULARULUI NORMAL
+
+                                    const postId = this.getAttribute('data-post-id');
+                                    const input = this.previousElementSibling;
+                                    const content = input.value;
+
+                                    if (!content.trim()) {
+                                        alert('Comment cannot be empty!');
+                                        return;
+                                    }
+
+                                    fetch('/Home/AddComment', {
+                                        method: 'POST',
+                                        headers: {
+                                            'Content-Type': 'application/x-www-form-urlencoded'
+                                        },
+                                        body: `postId=${postId}&content=${encodeURIComponent(content)}`
+                                    })
+                                    .then(response => {
+                                        if (response.ok) {
+                                            const commentList = document.getElementById(`comment-list-${postId}`);
+                                            const newComment = document.createElement('div');
+                                            newComment.style.background = '#f0f0f0';
+                                            newComment.style.padding = '5px 10px';
+                                            newComment.style.borderRadius = '15px';
+                                            newComment.style.margin = '5px 0';
+                                            newComment.innerHTML = `<strong>Comment:</strong> ${content}`;
+                                            commentList.appendChild(newComment);
+                                            input.value = '';
+                                            location.reload();
+                                        } else {
+                                            console.error('Failed to comment');
+                                        }
+                                    });
+                                });
+                            });
+                        </script>
+                    }
+
+</body>
+</html>

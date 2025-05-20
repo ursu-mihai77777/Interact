@@ -1,0 +1,14 @@
+﻿@model ThirdDelivery.Models.FriendSuggestion
+
+@{
+    ViewData["Title"] = "Delete";
+}
+<h2>Delete Confirmation</h2>
+
+<h3>Are you sure you want to delete @Model.Name?</h3>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Yes, Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">No, Cancel</a>
+</form>
