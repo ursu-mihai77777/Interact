@@ -1,0 +1,87 @@
+﻿@model IEnumerable<ThirdDelivery.Models.MarketplaceItem>
+@using System.Security.Claims
+@{
+    var profilePic = ViewBag.ProfilePictureUrl as string;
+    var currentUserName = ViewBag.UserName as string;
+}
+@{
+    ViewData["Title"] = "Marketplace";
+}
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <div class="logo">
+                <a asp-controller="Home" asp-action="Index">
+                    <img src="~/images/Preview.png" alt="Logo" />
+                </a>
+            </div>
+            <div class="search_bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search on Interact" />
+            </div>
+        </div>
+        <div class="center">
+            <a asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house"></i></a>
+            <a asp-controller="Watch" asp-action="Index"><i class="fa-solid fa-tv"></i></a>
+            <a asp-controller="Marketplace" asp-action="Index"><i class="fa-solid fa-store"></i></a>
+            <a asp-controller="Group" asp-action="Index"><i class="fa-solid fa-users"></i></a>
+        </div>
+        <div class="right">
+            <a asp-controller="Profile" asp-action="Index">
+                <div class="img">
+                    <img src="@(!string.IsNullOrEmpty(profilePic) ? profilePic : "/images/profile.jpg")" alt="Profile Picture" />
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p>@error.ErrorMessage</p>
+            }
+        </div>
+    }
+
+    <div class="main" style="padding: 20px;">
+        <form asp-action="Create" asp-controller="Marketplace" method="post" enctype="multipart/form-data" style="margin-bottom: 30px;">
+            <h2>Adaugă produs nou:</h2>
+
+            <input type="text" name="Title" placeholder="Titlu produs" required style="width:100%; padding:8px; margin-bottom:10px;" />
+            <textarea name="Description" placeholder="Descriere produs" required style="width:100%; padding:8px; margin-bottom:10px;"></textarea>
+            <input type="number" step="0.01" name="Price" placeholder="Preț (€)" required style="width:100%; padding:8px; margin-bottom:10px;" />
+            <input type="text" name="Location" placeholder="Locație (ex: Cluj, România)" required style="width:100%; padding:8px; margin-bottom:10px;" />
+            <input type="file" name="imageFile" accept="image/*" required style="width:100%; padding:8px; margin-bottom:10px;" />
+
+            <button type="submit" class="btn btn-primary">Adaugă produs</button>
+        </form>
+
+        <hr />
+
+        <div class="products-grid" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap:20px;">
+            @foreach (var item in Model)
+            {
+                <div class="product-card">
+                    <img src="@item.ImageUrl" alt="@item.Title" style="width:100%; height:200px; object-fit:cover;" />
+                    <div class="product-info">
+                        <p class="price">@item.Price €</p>
+                        <p class="description">@item.Description</p>
+                        <p class="location">@item.Location</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

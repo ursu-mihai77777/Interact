@@ -1,0 +1,39 @@
+﻿@model ThirdDelivery.Models.MarketplaceItem
+
+<h2>Adaugă produs nou</h2>
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var modelError in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@modelError.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<form asp-action="Create" enctype="multipart/form-data" method="post">
+    <div>
+        <label>Titlu:</label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+    <div>
+        <label>Descriere:</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+    <div>
+        <label>Preț:</label>
+        <input asp-for="Price" class="form-control" />
+    </div>
+    <div>
+        <label>Locație:</label>
+        <input asp-for="Location" class="form-control" />
+    </div>
+    <div>
+        <label>Imagine:</label>
+        <input type="file" name="imageFile" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Salvează</button>
+
+</form>

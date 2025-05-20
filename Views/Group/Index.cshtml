@@ -1,0 +1,165 @@
+﻿@model IEnumerable<ThirdDelivery.Models.Post>
+@using System.Security.Claims
+@{
+    var profilePic = ViewBag.ProfilePictureUrl as string;
+    var currentUserName = ViewBag.UserName as string;
+    ViewData["Title"] = "Group";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interact Group</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <div class="logo">
+                <a asp-controller="Home" asp-action="Index">
+                    <img src="~/images/Preview.png" alt="Logo" />
+                </a>
+            </div>
+            <div class="search_bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search on Interact" />
+            </div>
+        </div>
+        <div class="center">
+            <a asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house"></i></a>
+            <a asp-controller="Watch" asp-action="Index"><i class="fa-solid fa-tv"></i></a>
+            <a asp-controller="Marketplace" asp-action="Index"><i class="fa-solid fa-store"></i></a>
+            <a asp-controller="Group" asp-action="Index"><i class="fa-solid fa-users"></i></a>
+        </div>
+        <div class="right">
+            <a asp-controller="Profile" asp-action="Index">
+                <div class="img">
+                    <img src="@(!string.IsNullOrEmpty(profilePic) ? profilePic : "/images/profile.jpg")" alt="Profile Picture" />
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="left">
+            <a asp-controller="Profile" asp-action="Index">
+                <div class="img">
+                    <img src="@(!string.IsNullOrEmpty(profilePic) ? profilePic : "/images/profile.jpg")" alt="Profile Picture" />
+                    <p>@currentUserName</p>
+                </div>
+            </a>
+            <a asp-controller="Friends" asp-action="Index">
+                <div class="img">
+                    <img src="~/images/friend.png" />
+                    <p>Friends</p>
+                </div>
+            </a>
+            <a asp-controller="Group" asp-action="Index">
+                <div class="img">
+                    <img src="~/images/group.png" />
+                    <p>Groups</p>
+                </div>
+            </a>
+            <a asp-controller="Marketplace" asp-action="Index">
+                <div class="img">
+                    <img src="~/images/marketplace.png" />
+                    <p>Marketplace</p>
+                </div>
+            </a>
+            <a asp-controller="Watch" asp-action="Index">
+                <div class="img">
+                    <img src="~/images/watch.png" />
+                    <p>Watch</p>
+                </div>
+            </a>
+            <hr />
+        </div>
+
+        <div class="center">
+            <form asp-action="CreatePost" asp-controller="Group" method="post" enctype="multipart/form-data">
+                <div class="my_post">
+                    <div class="post_top">
+                        <img src="@profilePic" alt="Profile Picture" />
+                        <input type="text" name="Content" placeholder="Scrie ceva pentru grup, @currentUserName..." required />
+                    </div>
+                    <input type="file" name="ImageFile" accept="image/*" style="margin-top:10px;" />
+                    <input type="file" name="VideoFile" accept="video/*" style="margin-top:10px;" />
+                    <button type="submit" class="btn btn-primary">Postează</button>
+                </div>
+            </form>
+
+            <hr />
+
+            @foreach (var post in Model)
+            {
+                <div class="friends_post">
+                    <div class="friend_post_top">
+                        <div class="img_and_name">
+                            <img src="@(post.ApplicationUser?.ProfilePictureUrl ?? "/images/profile.jpg")" />
+                            <div class="friends_name">
+                                <p class="name">@post.UserName</p>
+                                <p class="time">@post.CreatedAt.ToString("g")</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post_content">
+                        @if (!string.IsNullOrEmpty(post.ImageUrl))
+                        {
+                            <img src="@post.ImageUrl" alt="Post image" style="width:100%; max-height:400px; object-fit:cover;" />
+                        }
+                        @if (!string.IsNullOrEmpty(post.VideoUrl))
+                        {
+                            <video controls style="width:100%; margin-top:10px;">
+                                <source src="@post.VideoUrl" type="video/mp4" />
+                            </video>
+                        }
+                        @if (!string.IsNullOrEmpty(post.Content))
+                        {
+                            <p>@post.Content</p>
+                        }
+                    </div>
+
+                    <div class="info">
+                        <div class="emoji_img">
+                            <img src="~/images/like.png" alt="like" />
+                            <p>@(post.Likes?.Count() ?? 0) Likes</p>
+                        </div>
+                        <div class="comment">
+                            <p>@(post.Comments?.Count() ?? 0) Comments</p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div class="comment_warpper">
+                        <img src="@profilePic" />
+                        <div class="circle"></div>
+                        <div class="comment_search">
+                            <form asp-action="AddComment" asp-controller="Home" method="post">
+                                <input type="hidden" name="postId" value="@post.PostId" />
+                                <input type="text" name="content" class="comment-input" placeholder="Scrie un comentariu..." required />
+                                <button type="submit" class="btn btn-primary" style="margin-left:10px;">Comment</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div style="margin-top:10px;">
+                        @if (post.Comments != null && post.Comments.Any())
+                        {
+                            foreach (var comment in post.Comments)
+                            {
+                                <div style="background:#f0f0f0; padding:5px 10px; border-radius:15px; margin:5px 0;">
+                                    <strong>@(comment.ApplicationUser?.UserName ?? "Anonim"):</strong> @comment.Content
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

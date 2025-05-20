@@ -1,0 +1,290 @@
+﻿@model IEnumerable<ThirdDelivery.Models.Post>
+@using System.Security.Claims
+@{
+    var profilePic = ViewBag.ProfilePictureUrl as string;
+    var currentUserName = ViewBag.UserName as string;
+}
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interact Home</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+
+</head>
+<body>
+
+    <nav>
+        <div class="left">
+            <div class="logo">
+                <a asp-controller="Home" asp-action="Index">
+                    <img src="~/images/Preview.png" alt="Logo" />
+                </a>
+            </div>
+            <div class="search_bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search on Interact" />
+            </div>
+        </div>
+        <div class="center">
+            <a asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house"></i></a>
+            <a asp-controller="Watch" asp-action="Index"><i class="fa-solid fa-tv"></i></a>
+            <a asp-controller="Marketplace" asp-action="Index"><i class="fa-solid fa-store"></i></a>
+            <a asp-controller="Group" asp-action="Index"><i class="fa-solid fa-users"></i></a>
+        </div>
+        <div class="right">
+            <a asp-controller="Profile" asp-action="Index">
+                <div class="img">
+                    <img src="@(!string.IsNullOrEmpty(profilePic) ? profilePic : "/images/profile.jpg")" alt="Profile Picture" />
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="left">
+            <a asp-controller="Profile" asp-action="Index">
+                <div class="img">
+                    <img src="@(!string.IsNullOrEmpty(profilePic) ? profilePic : "/images/profile.jpg")" alt="Profile Picture" />
+
+                    <p>@currentUserName</p>
+                </div>
+            </a>
+            <a asp-controller="Friends" asp-action="Index">
+                <div class="img">
+                    <img src="~/images/friend.png" />
+                    <p>Friends</p>
+                </div>
+            </a>
+            <a asp-controller="Group" asp-action="Index">
+                <div class="img">
+                    <img src="~/images/group.png" />
+                    <p>Groups</p>
+                </div>
+            </a>
+            <a asp-controller="Marketplace" asp-action="Index">
+                <div class="img">
+                    <img src="~/images/marketplace.png" />
+                    <p>Marketplace</p>
+                </div>
+            </a>
+            <a asp-controller="Watch" asp-action="Index">
+                <div class="img">
+                    <img src="~/images/watch.png" />
+                    <p>Watch</p>
+                </div>
+            </a>
+
+            <hr />
+        </div>
+
+        <div class="center">
+            
+            <!-- Form pentru adăugare postare -->
+            <form asp-action="CreatePost" asp-controller="Home" method="post" enctype="multipart/form-data">
+                <div class="my_post">
+                    <div class="post_top">
+                        <img src="@(!string.IsNullOrEmpty(profilePic) ? profilePic : "/images/profile.jpg")" alt="Profile Picture" />
+                        <input type="text" name="Content" placeholder="Ce ai în minte, @currentUserName?" required />
+                    </div>
+
+                    <div class="form-group mt-2">
+                        <input type="file" name="ImageFile" accept="image/*" />
+                    </div>
+
+                    <div style="margin-top: 10px;">
+                        <input type="file" name="VideoFile" accept="video/mp4"
+                               style="width: 100%; padding: 10px; margin-top: 5px; border-radius: 30px; border: 1px solid #ccc;" />
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">Postează</button>
+                </div>
+            </form>
+
+
+
+            <hr />
+
+            <!-- Afișare postări existente -->
+            <div id="postsContainer">
+                <form asp-action="Index" method="get" style="margin-bottom:20px;">
+                    <input type="text" name="filter" placeholder="Search posts..." value="@ViewBag.Filter" style="padding:8px; width:300px;" />
+                    <button type="submit" style="padding:8px;">Search</button>
+                </form>
+                @foreach (var post in Model)
+                {
+                    <div class="friends_post" id="post-@post.PostId">
+                        <div class="friend_post_top">
+                            <div class="img_and_name">
+                                <img src="@(!string.IsNullOrEmpty(post.ApplicationUser?.ProfilePictureUrl) ? post.ApplicationUser.ProfilePictureUrl : "/images/profile.jpg")" alt="Profile Picture" />
+                                <div class="friends_name">
+                                    <p class="name"><p class="name">@post.UserName</p>
+                                    <p class="time">@post.CreatedAt.ToString("g")</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="post_content">
+                            @if (!string.IsNullOrEmpty(post.ImageUrl))
+                            {
+                                <img src="@post.ImageUrl" alt="Post image" style="width:100%; max-height:400px; object-fit:cover; margin-top:10px;" />
+                            }
+
+                            @if (!string.IsNullOrEmpty(post.VideoUrl))
+                            {
+                                <video controls style="width:100%; margin-top:10px;">
+                                    <source src="@post.VideoUrl" type="video/mp4" />
+                                    Browserul tău nu suportă HTML5 video.
+                                </video>
+                            }
+
+                            @if (!string.IsNullOrEmpty(post.Content))
+                            {
+                                <p>@post.Content</p>
+                            }
+                        </div>
+
+                        <div class="info">
+                           <div class="emoji_img">
+                              <img src="~/images/like.png" alt="like" />
+                                 <p>@(post.Likes?.Count() ?? 0) Likes</p>
+                           </div>
+   
+                            
+                            <div class="comment">
+                                <p>@(post.Comments?.Count() ?? 0) Comments</p>
+                                
+                            </div>
+                        </div>
+
+
+                    <hr />
+
+                        <!-- Like Button -->
+                        <button class="btn btn-light like-button" data-post-id="@post.PostId">👍 Like</button>
+
+                        <!-- Comment Form -->
+                        <div class="comment_warpper">
+                            <img src="@(!string.IsNullOrEmpty(profilePic) ? profilePic : "/images/profile.jpg")" alt="Profile Picture" />
+                            <div class="circle"></div>
+                            <div class="comment_search">
+                                <form asp-action="AddComment" asp-controller="Home" method="post" style="display:flex; align-items:center;">
+                                    <input type="hidden" name="postId" value="@post.PostId" />
+                                    <input type="text" name="content" class="comment-input" placeholder="Write a comment..." required />
+                                    <button type="submit" class="btn btn-primary comment-button" data-post-id="@post.PostId" style="margin-left:10px;">Comment</button>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- Comentariile deja existente -->
+                        <div id="comment-list-@post.PostId" style="margin-top:10px;">
+                            @if (post.Comments != null && post.Comments.Any())
+                            {
+                                foreach (var comment in post.Comments)
+                                {
+                                    <div style="background: #f0f0f0; padding: 5px 10px; border-radius: 15px; margin: 5px 0;">
+                                      <strong>@(comment.ApplicationUser?.UserName ?? "Unknown"):</strong> @comment.Content
+
+
+                                    </div>
+                                }
+                            }
+                        </div>
+
+                    <hr />
+                </div> <!-- end friends_post -->
+            } <!-- end foreach -->
+        </div> <!-- end center -->
+    </div> <!-- end main -->
+        @section Scripts {
+            <script>
+                const videoInput = document.querySelector('input[name="VideoUrl"]');
+                const videoPreview = document.getElementById('videoPreview');
+                const videoSource = document.getElementById('videoSource');
+
+                if (videoInput) {
+                    videoInput.addEventListener('input', function () {
+                        const url = this.value.trim();
+                        if (url.endsWith('.mp4')) {
+                            videoSource.src = url;
+                            videoPreview.style.display = 'block';
+                            videoPreview.load();
+                        } else {
+                            videoPreview.style.display = 'none';
+                        }
+                    });
+                }
+            </script>
+
+            <script>
+                // LIKE fără refresh
+                document.querySelectorAll('.like-button').forEach(button => {
+                    button.addEventListener('click', function () {
+                        const postId = this.getAttribute('data-post-id');
+
+                        fetch('/Home/LikePost', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/x-www-form-urlencoded'
+                            },
+                            body: `id=${postId}`
+                        })
+                        .then(response => {
+                            if (response.ok) {
+                                location.reload(); // simplu reload ca sa vezi Like-ul
+                            } else {
+                                console.error('Failed to like');
+                            }
+                        });
+                    });
+                });
+
+                // COMMENT fără refresh
+                                document.querySelectorAll('.comment-button').forEach(button => {
+                    button.addEventListener('click', function (e) {
+                        e.preventDefault(); // 🔥 OPREȘTE SUBMITUL FORMULARULUI NORMAL
+
+                        const postId = this.getAttribute('data-post-id');
+                        const input = this.previousElementSibling;
+                        const content = input.value;
+
+                        if (!content.trim()) {
+                            alert('Comment cannot be empty!');
+                            return;
+                        }
+
+                        fetch('/Home/AddComment', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/x-www-form-urlencoded'
+                            },
+                            body: `postId=${postId}&content=${encodeURIComponent(content)}`
+                        })
+                        .then(response => {
+                            if (response.ok) {
+                                const commentList = document.getElementById(`comment-list-${postId}`);
+                                const newComment = document.createElement('div');
+                                newComment.style.background = '#f0f0f0';
+                                newComment.style.padding = '5px 10px';
+                                newComment.style.borderRadius = '15px';
+                                newComment.style.margin = '5px 0';
+                                newComment.innerHTML = `<strong>Comment:</strong> ${content}`;
+                                commentList.appendChild(newComment);
+                                input.value = '';
+                                location.reload();
+                            } else {
+                                console.error('Failed to comment');
+                            }
+                        });
+                    });
+                });
+            </script>
+            }
+            
+</body>
+</html>

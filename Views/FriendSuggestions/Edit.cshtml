@@ -1,0 +1,25 @@
+﻿@model ThirdDelivery.Models.FriendSuggestion
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit Suggestion</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Mutual Friends</label>
+        <input asp-for="MutualFriends" class="form-control" type="number" required />
+    </div>
+    <div class="form-group">
+        <label>Image URL</label>
+        <input asp-for="ImagePath" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success">Update</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>

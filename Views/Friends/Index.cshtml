@@ -1,0 +1,142 @@
+﻿@model IEnumerable<ThirdDelivery.Models.FriendSuggestion>
+@{
+    var profilePic = ViewBag.ProfilePictureUrl as string ?? "/images/profile.jpg";
+    var currentUserName = ViewBag.UserName as string ?? "User";
+}
+@{
+    ViewData["Title"] = "Friends Suggestions";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interact - Friends</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+</head>
+<body>
+
+    <nav>
+        <div class="left">
+            <div class="logo">
+                <a asp-controller="Home" asp-action="Index">
+                    <img src="/images/Preview.png" alt="Logo" />
+                </a>
+            </div>
+            <div class="search_bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search on Interact" />
+            </div>
+        </div>
+        <div class="center">
+            <a asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house"></i></a>
+            <a asp-controller="Watch" asp-action="Index"><i class="fa-solid fa-tv"></i></a>
+            <a asp-controller="Marketplace" asp-action="Index"><i class="fa-solid fa-store"></i></a>
+            <a asp-controller="Group" asp-action="Index"><i class="fa-solid fa-users"></i></a>
+        </div>
+        <div class="right">
+            <a asp-controller="Profile" asp-action="Index">
+                <div class="img">
+                    <img src="@profilePic" alt="Profile Picture" />
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="left">
+            <a asp-controller="Profile" asp-action="Index">
+                <div class="img">
+                    <img src="@profilePic" alt="Profile Picture" />
+                    <p>@currentUserName</p>
+                </div>
+            </a>
+            <a asp-controller="Friends" asp-action="Index">
+                <div class="img">
+                    <img src="/images/friend.png" />
+                    <p>Friends</p>
+                </div>
+            </a>
+            <a asp-controller="Group" asp-action="Index">
+                <div class="img">
+                    <img src="/images/group.png" />
+                    <p>Groups</p>
+                </div>
+            </a>
+            <a asp-controller="Marketplace" asp-action="Index">
+                <div class="img">
+                    <img src="/images/marketplace.png" />
+                    <p>Marketplace</p>
+                </div>
+            </a>
+            <a asp-controller="Watch" asp-action="Index">
+                <div class="img">
+                    <img src="/images/watch.png" />
+                    <p>Watch</p>
+                </div>
+            </a>
+
+            <hr />
+        </div>
+
+        <div class="center">
+            <div class="friends-grid">
+                @foreach (var suggestion in Model)
+                {
+                    <div class="friend-card">
+                        
+                        <div class="friend-info">
+                            <p class="friend-name">@suggestion.Name</p>
+                            <p class="mutual-friends">
+                                <i class="fa-solid fa-users"></i> @suggestion.MutualFriends mutual friends
+                            </p>
+                            <a href="@Url.Action("AddFriend", "Friends", new { id = suggestion.Id })" class="add-friend">Add Friend</a>
+                            <a href="@Url.Action("RemoveSuggestion", "Friends", new { id = suggestion.Id })" class="remove-friend">Remove</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup -->
+    <div id="popup" style="display:none; position:fixed; top:20px; right:20px; background:#4BB543; color:white; padding:15px 25px; border-radius:8px; box-shadow: 0 0 10px rgba(0,0,0,0.5); font-weight:bold; z-index:2000;">
+        Action completed!
+    </div>
+
+    @section Scripts {
+        <script>
+            function showPopup(message) {
+                const popup = document.getElementById('popup');
+                popup.textContent = message;
+                popup.style.display = 'block';
+                popup.style.animation = 'slideDown 0.5s ease';
+
+                setTimeout(() => {
+                    popup.style.display = 'none';
+                }, 2000);
+            }
+
+            document.querySelectorAll('.add-friend, .remove-friend').forEach(button => {
+                button.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    const actionUrl = this.getAttribute('href');
+
+                    fetch(actionUrl, { method: 'POST' })
+                        .then(response => {
+                            if (response.ok) {
+                                this.closest('.friend-card').remove();
+                                showPopup(this.classList.contains('add-friend') ? 'Friend Added!' : 'Suggestion Removed!');
+                            } else {
+                                alert('Something went wrong.');
+                            }
+                        });
+                });
+            });
+        </script>
+    }
+
+</body>
+</html>
