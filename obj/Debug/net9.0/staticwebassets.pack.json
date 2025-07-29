@@ -1,0 +1,553 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ThirdDelivery.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ThirdDelivery.nfflwjgm90.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\audio\\50 Cent - Piggy Bank.mp3",
+      "PackagePath": "staticwebassets\\audio\\50 Cent - Piggy Bank.mp3"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\1ee82071-36f0-4a82-9856-f82a4c36db4f_muslera.jpg",
+      "PackagePath": "staticwebassets\\images\\1ee82071-36f0-4a82-9856-f82a4c36db4f_muslera.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\2345b591-df42-4d8f-b803-07b4a8c3e32a_canapea2.webp",
+      "PackagePath": "staticwebassets\\images\\2345b591-df42-4d8f-b803-07b4a8c3e32a_canapea2.webp"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\60cbbf76-fff2-4c2b-a5ca-46edabf1643c_mbappeeee.jpg",
+      "PackagePath": "staticwebassets\\images\\60cbbf76-fff2-4c2b-a5ca-46edabf1643c_mbappeeee.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\649350e9-5f7c-4ac4-84f7-648ac329158c_mbappeeee.jpg",
+      "PackagePath": "staticwebassets\\images\\649350e9-5f7c-4ac4-84f7-648ac329158c_mbappeeee.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\8e57373d-cbd2-4ab6-b128-72c49dba841d_mbappeeee.jpg",
+      "PackagePath": "staticwebassets\\images\\8e57373d-cbd2-4ab6-b128-72c49dba841d_mbappeeee.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\Preview.png",
+      "PackagePath": "staticwebassets\\images\\Preview.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\add-friends.png",
+      "PackagePath": "staticwebassets\\images\\add-friends.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\b2b0bec9-e81a-4ac9-a449-7aaf3f2becba_sakaa.png",
+      "PackagePath": "staticwebassets\\images\\b2b0bec9-e81a-4ac9-a449-7aaf3f2becba_sakaa.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\b2e0e50d-c504-4a64-bffb-dc25170ef724_ec9cc29c-da32-45db-92a9-d1d77a9de37d_sakaa.webp",
+      "PackagePath": "staticwebassets\\images\\b2e0e50d-c504-4a64-bffb-dc25170ef724_ec9cc29c-da32-45db-92a9-d1d77a9de37d_sakaa.webp"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\c02b8671-284c-43a9-8eeb-e5a31f52a562_8e57373d-cbd2-4ab6-b128-72c49dba841d_mbappeeee.jpg",
+      "PackagePath": "staticwebassets\\images\\c02b8671-284c-43a9-8eeb-e5a31f52a562_8e57373d-cbd2-4ab6-b128-72c49dba841d_mbappeeee.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\canapea1.jpg",
+      "PackagePath": "staticwebassets\\images\\canapea1.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\canapea2.webp",
+      "PackagePath": "staticwebassets\\images\\canapea2.webp"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\canapea3.webp",
+      "PackagePath": "staticwebassets\\images\\canapea3.webp"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\canapea4.webp",
+      "PackagePath": "staticwebassets\\images\\canapea4.webp"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\cat.jpg",
+      "PackagePath": "staticwebassets\\images\\cat.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\cavani.jpg",
+      "PackagePath": "staticwebassets\\images\\cavani.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\cc0d52c1-0c01-4ee1-b969-5831042098f2_Falcao-United.avif",
+      "PackagePath": "staticwebassets\\images\\cc0d52c1-0c01-4ee1-b969-5831042098f2_Falcao-United.avif"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\cover.png",
+      "PackagePath": "staticwebassets\\images\\cover.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\d9feddc9-3f23-48f8-a18b-eeadd7ff5e0a_canapea1.jpg",
+      "PackagePath": "staticwebassets\\images\\d9feddc9-3f23-48f8-a18b-eeadd7ff5e0a_canapea1.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\drogba.jpg",
+      "PackagePath": "staticwebassets\\images\\drogba.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\e6d5815e-4144-41a3-bf9e-0ad9e1f0ae61_saka.jpg",
+      "PackagePath": "staticwebassets\\images\\e6d5815e-4144-41a3-bf9e-0ad9e1f0ae61_saka.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\ec9cc29c-da32-45db-92a9-d1d77a9de37d_sakaa.webp",
+      "PackagePath": "staticwebassets\\images\\ec9cc29c-da32-45db-92a9-d1d77a9de37d_sakaa.webp"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\friend.png",
+      "PackagePath": "staticwebassets\\images\\friend.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\gerard.jpg",
+      "PackagePath": "staticwebassets\\images\\gerard.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\group.png",
+      "PackagePath": "staticwebassets\\images\\group.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\haha.png",
+      "PackagePath": "staticwebassets\\images\\haha.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\heart.png",
+      "PackagePath": "staticwebassets\\images\\heart.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\henry.jpg",
+      "PackagePath": "staticwebassets\\images\\henry.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\home.png",
+      "PackagePath": "staticwebassets\\images\\home.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\lampard.jpg",
+      "PackagePath": "staticwebassets\\images\\lampard.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\lewa.jpg",
+      "PackagePath": "staticwebassets\\images\\lewa.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\like.png",
+      "PackagePath": "staticwebassets\\images\\like.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\luiz.jpg",
+      "PackagePath": "staticwebassets\\images\\luiz.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\marketplace.png",
+      "PackagePath": "staticwebassets\\images\\marketplace.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\member-1.png",
+      "PackagePath": "staticwebassets\\images\\member-1.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\member-2.jpg",
+      "PackagePath": "staticwebassets\\images\\member-2.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\member-3.jpg",
+      "PackagePath": "staticwebassets\\images\\member-3.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\member-4.jpg",
+      "PackagePath": "staticwebassets\\images\\member-4.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\member-5.jpg",
+      "PackagePath": "staticwebassets\\images\\member-5.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\message.png",
+      "PackagePath": "staticwebassets\\images\\message.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\more.png",
+      "PackagePath": "staticwebassets\\images\\more.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\neymar.jpg",
+      "PackagePath": "staticwebassets\\images\\neymar.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\pedri.jpg",
+      "PackagePath": "staticwebassets\\images\\pedri.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\photo2.jpg",
+      "PackagePath": "staticwebassets\\images\\photo2.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\photo3.jpg",
+      "PackagePath": "staticwebassets\\images\\photo3.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\photo_1.jpg",
+      "PackagePath": "staticwebassets\\images\\photo_1.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\post_1.jpg",
+      "PackagePath": "staticwebassets\\images\\post_1.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\post_2.jpg",
+      "PackagePath": "staticwebassets\\images\\post_2.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\post_3.jpg",
+      "PackagePath": "staticwebassets\\images\\post_3.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\post_cr7.jpg",
+      "PackagePath": "staticwebassets\\images\\post_cr7.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\post_mbappe.jpg",
+      "PackagePath": "staticwebassets\\images\\post_mbappe.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\post_messi.jpg",
+      "PackagePath": "staticwebassets\\images\\post_messi.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\post_muslera.jpg",
+      "PackagePath": "staticwebassets\\images\\post_muslera.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\profile-home.png",
+      "PackagePath": "staticwebassets\\images\\profile-home.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\profile-job.png",
+      "PackagePath": "staticwebassets\\images\\profile-job.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\profile-location.png",
+      "PackagePath": "staticwebassets\\images\\profile-location.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\profile-study.png",
+      "PackagePath": "staticwebassets\\images\\profile-study.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\profile.jpg",
+      "PackagePath": "staticwebassets\\images\\profile.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\raya.webp",
+      "PackagePath": "staticwebassets\\images\\raya.webp"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\watch.png",
+      "PackagePath": "staticwebassets\\images\\watch.png"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\images\\yamal.jpg",
+      "PackagePath": "staticwebassets\\images\\yamal.jpg"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\videos\\arsenal.mp4",
+      "PackagePath": "staticwebassets\\videos\\arsenal.mp4"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\videos\\b06739f7-9243-4235-9845-0b4414cebf8d_arsenal.mp4",
+      "PackagePath": "staticwebassets\\videos\\b06739f7-9243-4235-9845-0b4414cebf8d_arsenal.mp4"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\videos\\d4d68e4e-330d-4d4f-8c26-d0404a2383cf_final.mp4",
+      "PackagePath": "staticwebassets\\videos\\d4d68e4e-330d-4d4f-8c26-d0404a2383cf_final.mp4"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\videos\\final.mp4",
+      "PackagePath": "staticwebassets\\videos\\final.mp4"
+    },
+    {
+      "Id": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\wwwroot\\videos\\videoplayback.mp4",
+      "PackagePath": "staticwebassets\\videos\\videoplayback.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ThirdDelivery.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ThirdDelivery.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.ThirdDelivery.props",
+      "PackagePath": "build\\ThirdDelivery.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.ThirdDelivery.props",
+      "PackagePath": "buildMultiTargeting\\ThirdDelivery.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.ThirdDelivery.props",
+      "PackagePath": "buildTransitive\\ThirdDelivery.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

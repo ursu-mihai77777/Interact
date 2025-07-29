@@ -1,0 +1,1113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\watch\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\watch\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\controllers\\friendsuggestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:controllers\\friendsuggestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\services\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:services\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\likes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\likes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\friendsuggestions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\friendsuggestions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\comments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\comments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\comments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\comments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\services\\likeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:services\\likeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\services\\friendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:services\\friendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\repository\\ilikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:repository\\ilikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\controllers\\friendscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:controllers\\friendscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\controllers\\marketplacecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:controllers\\marketplacecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\models\\friendsuggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:models\\friendsuggestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\models\\interactdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:models\\interactdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\models\\friend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:models\\friend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\controllers\\watchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:controllers\\watchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\marketplace\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\marketplace\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\marketplace\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\marketplace\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\controllers\\likescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:controllers\\likescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\migrations\\20250520032118_migration66.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:migrations\\20250520032118_migration66.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\services\\ifriendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:services\\ifriendservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\friendsuggestions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\friendsuggestions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\repository\\friendrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:repository\\friendrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\friends\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\friends\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\friendsuggestions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\friendsuggestions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\repository\\ifriendrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:repository\\ifriendrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\repository\\friendsuggestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:repository\\friendsuggestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\services\\imarketplaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:services\\imarketplaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\repository\\marketplacerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:repository\\marketplacerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\services\\marketplaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:services\\marketplaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\repository\\imarketplacerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:repository\\imarketplacerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\migrations\\20250520023552_migration37.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:migrations\\20250520023552_migration37.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\migrations\\20250520014626_migration35.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:migrations\\20250520014626_migration35.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\migrations\\20250520013840_migration33.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:migrations\\20250520013840_migration33.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\migrations\\20250519211825_migration29.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:migrations\\20250519211825_migration29.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\group\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\group\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|c:\\facultate anul 3\\semestru2\\wad\\thirddelivery\\views\\watch\\createpostwithvideo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD11B07F-F757-43C5-A4C5-3791E7576BC7}|ThirdDelivery.csproj|solutionrelative:views\\watch\\createpostwithvideo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2d7728c2-de0a-45b5-99aa-89b609dfde73}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GroupController.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "Controllers\\GroupController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:09:22.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:31:25.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowCoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:01:48.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostsController.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "Controllers\\PostsController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswEcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:31:44.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:05:29.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Watch\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Watch\\Index.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Watch\\Index.cshtml",
+              "RelativeToolTip": "Views\\Watch\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAH0AAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T20:19:51.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CommentsController.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\CommentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CommentsController.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\CommentsController.cs",
+              "RelativeToolTip": "Controllers\\CommentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:31:29.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "Models\\Comment.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Models\\Comment.cs",
+              "RelativeToolTip": "Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:21:35.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T20:35:42.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FriendSuggestionsController.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\FriendSuggestionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FriendSuggestionsController.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\FriendSuggestionsController.cs",
+              "RelativeToolTip": "Controllers\\FriendSuggestionsController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAwwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:03:26.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\ICommentService.cs",
+              "RelativeDocumentMoniker": "Services\\ICommentService.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\ICommentService.cs",
+              "RelativeToolTip": "Services\\ICommentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T10:59:43.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile\\Index.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAADwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T21:20:05.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Likes\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Likes\\Details.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Likes\\Details.cshtml",
+              "RelativeToolTip": "Views\\Likes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T11:00:50.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\FriendSuggestions\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\FriendSuggestions\\Delete.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\FriendSuggestions\\Delete.cshtml",
+              "RelativeToolTip": "Views\\FriendSuggestions\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T10:59:58.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Comments\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Comments\\Create.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Comments\\Create.cshtml",
+              "RelativeToolTip": "Views\\Comments\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T10:59:56.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Comments\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Comments\\Delete.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Comments\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Comments\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T10:59:55.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LikeService.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\LikeService.cs",
+              "RelativeDocumentMoniker": "Services\\LikeService.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\LikeService.cs",
+              "RelativeToolTip": "Services\\LikeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T10:59:46.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T10:59:42.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAAADQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T02:59:36.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ILikeRepository.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Repository\\ILikeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ILikeRepository.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Repository\\ILikeRepository.cs",
+              "RelativeToolTip": "Repository\\ILikeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T10:59:32.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T09:24:52.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T09:24:54.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Repository\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CommentRepository.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Repository\\CommentRepository.cs",
+              "RelativeToolTip": "Repository\\CommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T10:59:30.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FriendService.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\FriendService.cs",
+              "RelativeDocumentMoniker": "Services\\FriendService.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\FriendService.cs",
+              "RelativeToolTip": "Services\\FriendService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:19:08.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T09:15:27.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FriendsController.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\FriendsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FriendsController.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\FriendsController.cs",
+              "RelativeToolTip": "Controllers\\FriendsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:03:37.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MarketplaceController.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\MarketplaceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MarketplaceController.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\MarketplaceController.cs",
+              "RelativeToolTip": "Controllers\\MarketplaceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:28:06.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-20T01:39:15.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Marketplace\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Marketplace\\Index.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Marketplace\\Index.cshtml",
+              "RelativeToolTip": "Views\\Marketplace\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAACgAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T01:28:14.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Favorite.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Models\\Favorite.cs",
+              "RelativeDocumentMoniker": "Models\\Favorite.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Models\\Favorite.cs",
+              "RelativeToolTip": "Models\\Favorite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:15:49.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Marketplace\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Marketplace\\Create.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Marketplace\\Create.cshtml",
+              "RelativeToolTip": "Views\\Marketplace\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T02:08:43.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Like.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Models\\Like.cs",
+              "RelativeDocumentMoniker": "Models\\Like.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Models\\Like.cs",
+              "RelativeToolTip": "Models\\Like.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:27:18.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:31:58.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FriendSuggestion.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Models\\FriendSuggestion.cs",
+              "RelativeDocumentMoniker": "Models\\FriendSuggestion.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Models\\FriendSuggestion.cs",
+              "RelativeToolTip": "Models\\FriendSuggestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:20:27.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "Models\\Post.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Models\\Post.cs",
+              "RelativeToolTip": "Models\\Post.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwBQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:43:14.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "InteractDbContext.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Models\\InteractDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\InteractDbContext.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Models\\InteractDbContext.cs",
+              "RelativeToolTip": "Models\\InteractDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:31:13.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Friend.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Models\\Friend.cs",
+              "RelativeDocumentMoniker": "Models\\Friend.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Models\\Friend.cs",
+              "RelativeToolTip": "Models\\Friend.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:20:25.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "WatchController.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\WatchController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WatchController.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\WatchController.cs",
+              "RelativeToolTip": "Controllers\\WatchController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwD0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T20:07:58.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T09:15:22.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T09:15:20.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T09:15:18.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T09:15:41.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T09:15:45.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T09:24:47.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T09:24:47.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LikesController.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\LikesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LikesController.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Controllers\\LikesController.cs",
+              "RelativeToolTip": "Controllers\\LikesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:31:41.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20250520032118_migration66.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Migrations\\20250520032118_migration66.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250520032118_migration66.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Migrations\\20250520032118_migration66.cs",
+              "RelativeToolTip": "Migrations\\20250520032118_migration66.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:21:18.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IFriendService.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\IFriendService.cs",
+              "RelativeDocumentMoniker": "Services\\IFriendService.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\IFriendService.cs",
+              "RelativeToolTip": "Services\\IFriendService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:19:37.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\FriendSuggestions\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\FriendSuggestions\\Edit.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\FriendSuggestions\\Edit.cshtml",
+              "RelativeToolTip": "Views\\FriendSuggestions\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T03:23:15.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "FriendRepository.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Repository\\FriendRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\FriendRepository.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Repository\\FriendRepository.cs",
+              "RelativeToolTip": "Repository\\FriendRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAIA2wCQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:18:18.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Friends\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Friends\\Index.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Friends\\Index.cshtml",
+              "RelativeToolTip": "Views\\Friends\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T21:06:40.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\FriendSuggestions\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\FriendSuggestions\\Index.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\FriendSuggestions\\Index.cshtml",
+              "RelativeToolTip": "Views\\FriendSuggestions\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T01:43:03.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IFriendRepository.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Repository\\IFriendRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IFriendRepository.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Repository\\IFriendRepository.cs",
+              "RelativeToolTip": "Repository\\IFriendRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:18:02.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "FriendSuggestionRepository.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Repository\\FriendSuggestionRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\FriendSuggestionRepository.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Repository\\FriendSuggestionRepository.cs",
+              "RelativeToolTip": "Repository\\FriendSuggestionRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T03:17:39.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IMarketplaceService.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\IMarketplaceService.cs",
+              "RelativeDocumentMoniker": "Services\\IMarketplaceService.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\IMarketplaceService.cs",
+              "RelativeToolTip": "Services\\IMarketplaceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:32:44.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "MarketplaceRepository.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Repository\\MarketplaceRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\MarketplaceRepository.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Repository\\MarketplaceRepository.cs",
+              "RelativeToolTip": "Repository\\MarketplaceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:32:30.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "MarketplaceService.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\MarketplaceService.cs",
+              "RelativeDocumentMoniker": "Services\\MarketplaceService.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\MarketplaceService.cs",
+              "RelativeToolTip": "Services\\MarketplaceService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:32:55.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\PostService.cs",
+              "RelativeDocumentMoniker": "Services\\PostService.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Services\\PostService.cs",
+              "RelativeToolTip": "Services\\PostService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwEwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T20:55:16.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IMarketplaceRepository.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Repository\\IMarketplaceRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IMarketplaceRepository.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Repository\\IMarketplaceRepository.cs",
+              "RelativeToolTip": "Repository\\IMarketplaceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:32:14.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20250520023552_migration37.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Migrations\\20250520023552_migration37.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250520023552_migration37.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Migrations\\20250520023552_migration37.cs",
+              "RelativeToolTip": "Migrations\\20250520023552_migration37.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T02:35:52.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20250520014626_migration35.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Migrations\\20250520014626_migration35.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250520014626_migration35.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Migrations\\20250520014626_migration35.cs",
+              "RelativeToolTip": "Migrations\\20250520014626_migration35.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:46:26.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20250520013840_migration33.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Migrations\\20250520013840_migration33.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250520013840_migration33.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Migrations\\20250520013840_migration33.cs",
+              "RelativeToolTip": "Migrations\\20250520013840_migration33.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:38:40.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T01:33:14.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20250519211825_migration29.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Migrations\\20250519211825_migration29.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250519211825_migration29.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Migrations\\20250519211825_migration29.cs",
+              "RelativeToolTip": "Migrations\\20250519211825_migration29.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T21:18:26.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Group\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Group\\Index.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Group\\Index.cshtml",
+              "RelativeToolTip": "Views\\Group\\Index.cshtml",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAcwKQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T21:09:12.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Repository\\PostRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\PostRepository.cs",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Repository\\PostRepository.cs",
+              "RelativeToolTip": "Repository\\PostRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAtwBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T20:54:51.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "CreatePostWithVideo.cshtml",
+              "DocumentMoniker": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Watch\\CreatePostWithVideo.cshtml",
+              "RelativeDocumentMoniker": "Views\\Watch\\CreatePostWithVideo.cshtml",
+              "ToolTip": "C:\\facultate anul 3\\semestru2\\WAD\\ThirdDelivery\\Views\\Watch\\CreatePostWithVideo.cshtml",
+              "RelativeToolTip": "Views\\Watch\\CreatePostWithVideo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T20:19:52.671Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
