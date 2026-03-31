@@ -6,7 +6,7 @@ namespace ThirdDelivery.Models
     {
         public int PostId { get; set; }
 
-        public string Title { get; set; }  // Titlu opțional
+        public string Title { get; set; } 
 
         [Required(ErrorMessage = "Content este obligatoriu.")]
         public string Content { get; set; }
@@ -17,10 +17,10 @@ namespace ThirdDelivery.Models
 
         public string? VideoUrl { get; set; }
 
-        public string UserName { get; set; } = "TEMP";  // pentru afișare rapidă
+        public string UserName { get; set; } = "TEMP";  
         public bool IsGroupPost { get; set; } = false;
 
-        // ✅ Cheia străină pentru IdentityUser
+       
 
         public string ApplicationUserId { get; set; }
 
