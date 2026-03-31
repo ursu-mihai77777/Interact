@@ -27,7 +27,6 @@ namespace ThirdDelivery.Controllers
         }
 
 
-        // Afișează pagina principală cu toate postările
         public async Task<IActionResult> Index(string filter)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -71,7 +70,7 @@ namespace ThirdDelivery.Controllers
             if (ImageFile != null && ImageFile.Length > 0)
             {
                 var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
-                Directory.CreateDirectory(uploadsFolder); // Creează dacă nu există
+                Directory.CreateDirectory(uploadsFolder);
                 var uniqueFileName = Guid.NewGuid().ToString() + "_" + ImageFile.FileName;
                 var filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
@@ -87,7 +86,7 @@ namespace ThirdDelivery.Controllers
             if (videoFile != null && videoFile.Length > 0)
             {
                 var videoFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/videos");
-                Directory.CreateDirectory(videoFolder); // creează folderul dacă nu există
+                Directory.CreateDirectory(videoFolder); 
 
                 var uniqueVideoName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(videoFile.FileName);
                 var videoFilePath = Path.Combine(videoFolder, uniqueVideoName);
@@ -105,7 +104,7 @@ namespace ThirdDelivery.Controllers
                 Title = "Postare nouă",
                 Content = content,
                 ImageUrl = imagePath,
-                VideoUrl = videoPath, // 👈 aici
+                VideoUrl = videoPath, 
                 CreatedAt = DateTime.Now,
                 ApplicationUserId = user.Id,
                 UserName = user.UserName
